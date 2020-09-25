@@ -5,7 +5,7 @@
     position: relative;
     margin: 47 0 0 ;
 }
-img{
+.googlelogopicture{
     padding-top: 109px; 
     background-color: white;
     width: 372px;
@@ -58,7 +58,7 @@ img{
 }
 .center-bottom{
     max-width: none;
-    margin: 0 514px;
+    margin: 0 800px;
     width: 917px;
     height: 140px;
 
@@ -70,3 +70,41 @@ img{
     margin: 0 auto;
     max-width: 584;
 }
+#header-links-1{
+    color: black;
+    cursor: pointer;
+    padding-left: 15px;
+
+}
+ #header-links-2{
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 181px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    float: right;
+    justify-content: flex-end;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 181px;
+    z-index: 987;}
+
+    .header-links{
+        display: inline-block;
+        cursor: pointer;
+        font: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .microphone-button-picture{
+        height: 24px;
+        width: 24px;
+        background-size: 24px;
+        vertical-align: middle;
+        color: black;
+    }
