@@ -107,4 +107,35 @@
         background-size: 24px;
         vertical-align: middle;
         color: black;
+        position: absolute;
+        top: 400px;
+        left: 1200px;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin:0;
+        display: flex;
+        background-color:lightgray;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    li a {
+        display: block;
+        padding: 10px 12px;
+        text-align: center;
+        text-decoration: none;
+        color:black;
+    }
+    .myclass{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    html,body{
+        height: 100%;
+        position: relative;
     }
